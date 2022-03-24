@@ -1,0 +1,25 @@
+{
+	"mode": "local",
+	"server_local": {
+		"host": "localhost",
+		"port": "8080"
+	}, 
+	"server_prod": {
+		"host": "0.0.0.0",
+		"port": "443",
+		"cert_path": "",
+		"key_path": ""
+	},
+	"database_local": {
+		"host": "127.0.0.1",
+		"port": "3306",
+		"user": "root",
+		"password": "superman123",
+		"dbname": "clean_architecture",
+		"sslmode": "disable"
+	},
+	"context": {
+		"timeout": 10
+	},
+	"jwt_secret": "super_secret"
+}
